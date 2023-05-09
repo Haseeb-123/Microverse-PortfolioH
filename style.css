@@ -6,7 +6,24 @@
 .para1{
     color: white;
 }
-
+div.container{
+    display: flex;
+    border: 7px;
+}
+div.container div{
+    border-radius: 5px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    width: auto; height: auto;
+}
+.img :nth-child(1){
+    background-image: url('https://images.unsplash.com/photo-1654277041028-ffa014fb301b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dWRlbXl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+}
+.img :nth-child(2){
+    background-image: url('https://unsplash.com/photos/cGXX5SnH37U');
+}
 body {
        background-color: darkslategrey;
        
