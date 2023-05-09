@@ -1,0 +1,28 @@
+.header {
+    color: Red;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para1{
+    color: white;
+}
+
+body {
+       background-color: darkslategrey;
+       
+}
+
+.nav2 {
+    text-align: center;
+    border-bottom: 1px solid black ;
+    padding-top: 150px;
+    font-size: larger;
+
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    border-bottom:1px solid Red ;
+    margin-bottom: 0;
+
+}
